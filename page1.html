@@ -1,0 +1,202 @@
+﻿<!doctype html >
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title></title>
+    <link href="css/animate.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <header>
+        <div class="logo wow fadeInLeft">
+            <a href="index.html">
+            <p class="fk"></p>
+            <p> Xinyu (Shelly) Zhang </p>
+            </a> 
+        </div> 
+        <nav class="wow fadeInRight">  
+        
+        <a href="index.html" class="button-nav">ABOUT ME
+        </a>
+        <a href="page1.html" class="button-nav">PROJECTS
+        </a>
+        <a href="#" class="button-nav">RESUME
+        </a>
+        </nav>
+    </header>
+    <mian class="page1">
+    <div class=" w1300">
+    <div class="title">
+        <div class="tl"><h2 >projects</h2></div>
+        <div class="tr"> 
+         <nav id="nav"> 
+            <ul> 
+               <li class="act">All</li> 
+               <li>Animation</li>
+               <li>Video Editing</li>
+               <li>Interactive Video</li> 
+            </ul>
+        </nav> 
+        </div> 
+    </div>
+    <!--HTML-->
+    <div id="container">
+        <section class="tab wow fadeIn"> 
+            <ul>
+                <li><a href="page2.html">
+                <img src="images/343img_1.png" />
+                <h2>Cactus and Hedgehog</h2>
+                <p>Animation</p>
+                <p></p>
+                
+                </a></li>
+
+                   <li><a href="#">
+                <img src="images/blackpearl.png" />
+                 <h2>Black Pearls</h2>
+                <p>Video Editing</p>
+                <p></p>
+                
+                </a></li>
+
+                
+            
+                
+                <li><a href="#">
+                <img src="images/2DAnimation.png" />
+                <h2>Cactus and Hedgehog</h2>
+                <p>Animation</p>
+                <p></p>
+                
+                </a></li>
+
+                
+
+   				 <li><a href="#">
+                <img src="images/344img_1.png" />
+                 <h2>Reunion</h2>
+                <p>Video Editing</p>
+                <p></p>
+                
+                </a></li>
+
+                
+                <li><a href="#">
+                <img src="images/Interactiveweb.png" />
+                <h2>Three Times</h2>
+                <p>Interactive Video</p>
+                <p></p>
+                </a></li>
+
+                
+                <!-- <li><a href="#">
+                <img src="images/potential_image_1.jpg" />
+                <h2>JOORTI </h2>
+                <p><del>$99.00</del><mark>$93.00</mark></p>
+                <p></p>
+                
+                </a></li>
+
+                
+                <li><a href="#">
+                <img src="images/ENDOT_Wool_Coat.jpg" />
+                <h2>JOORTI</h2>
+                <p><del>$99.00</del><mark>$93.00</mark></p>
+                <p></p>
+                
+                </a></li>
+
+                
+                <li><a href="#">
+                <img src="images/potential_image_1.jpg" />
+                <h2>JOORTI </h2>
+                <p><del>$99.00</del><mark>$93.00</mark></p>
+                <p></p>
+                
+                </a></li>
+ -->            </ul> 
+        </section>
+        <section class="tab wow fadeIn">
+            <ul>
+              <li><a href="page2.html">
+                <img src="images/343img_1.png" />
+                <h2>Cactus and Hedgehog</h2>
+                <p>Animation</p>
+                <p></p>
+                
+                </a></li>
+
+                 <li><a href="#">
+                <img src="images/2DAnimation.png" />
+                <h2>Cactus and Hedgehog</h2>
+                <p>Animation</p>
+                <p></p>
+                
+                </a></li>
+                 
+            </ul> </section>
+        <section class="tab wow fadeIn">
+            <ul> 
+                
+                <li><a href="#">
+                <img src="images/344img_1.png" />
+                 <h2>Reunion</h2>
+                <p>Video Editing</p>
+                <p></p>
+                
+                </a></li>
+
+               <li><a href="#">
+                <img src="images/blackpearl.png" />
+                 <h2>Black Pearls</h2>
+                <p>Video Editing</p>
+                <p></p>
+                
+                </a></li>
+            </ul> </section>
+        <section class="tab wow fadeIn">
+            <ul>
+                <li><a href="#">
+                <img src="images/Interactiveweb.png" />
+                <h2>Three Times</h2>
+                <p>Interactive Video</p>
+                <p></p>
+                </a></li>
+                 
+            </ul> </section>
+    </div>
+    <script>
+        window.onload = function () {
+            var nav = document.getElementById('nav');
+            var oNav = nav.getElementsByTagName('li');
+            var container = document.getElementById('container');
+            var oDiv = container.getElementsByClassName('tab');
+            for (var i = 0; i < oNav.length; i++) {
+                oNav[i].index = i;
+                oNav[i].onclick = function () {
+                    for (var i = 0; i < oNav.length; i++) {
+                        oNav[i].className = ''; oDiv[i].style.display = "none";
+                    }
+                    this.className = 'act'; oDiv[this.index].style.display = "block"
+                }
+                for (var m = 1; m < oNav.length; m++) {
+                    oNav[m].className = '';
+                    oDiv[m].style.display = "none";
+                }
+            }
+        };</script>
+
+    
+    
+    </div>
+
+    </mian>
+    <script src="js/wow.min.js" type="text/javascript"></script>
+    <script>
+        if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
+            new WOW().init();
+        };
+    </script>
+</body>
+</html>

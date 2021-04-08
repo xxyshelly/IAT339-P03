@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Style Guide Template</title>
+		<link href="css/style.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+		<!--responsive css-->
+		
+		<link rel="stylesheet" href="css/responsive.css" />
+
+		    <style>
+		        body { 
+    padding: 2rem;
+}
+   </style> 
+
+	</head>
+
+	<body>
+
+		<h1>Style Guide Template</h1>
+
+		<p>A template you can use to start building out your own style guides with.</p>
+
+
+		<nav>
+
+			<p>
+				Go to:
+				<a href="#interactive_elements" class="brand-links">Interactive Elements</a>,
+				<a href="#text_elements" class="brand-links">Text Elements</a>,
+				<a href="#combined_elements" class="brand-links">Combined Elements</a>,
+				<a href="#comany_and_branding" class="brand-links">Comany And Branding,</a>
+				<a href="new_man.html" class="brand-links">Product Listing,</a>
+				<a href="checkout_page.html" class="brand-links">Checkout Page,</a>
+				<a href="#citations" class="brand-links">Citations</a>
+			</p>
+
+		</nav>
+
+
+
+		<!-- INTERACTIVE ELEMENTS SECTION // -->
+		<section id="interactive_elements">
+
+			<!-- Default Button styling section -->
+			<section>
+				<h2>Navigation Button</h2>
+
+				<h3>CSS selector:</h3>
+				<p>.btns</p>
+
+				<h3>Sample code:</h3>
+				<code>&lt;div class=&quot;btns&quot;&gt; &lt;a href=&quot;#&quot;&gt;Default Button&lt;/a&gt;&lt;/div&gt;</code>
+
+				<h3>Rendered element:</h3> 
+                <div class="btns">
+                    <a href="#">Default Button</a> 
+                </div>
+			</section>
+
+			<section>
+				<h2>Navigation link</h2> <!-- I learnt from W3C -->
+ 
+                <h3>CSS selector:</h3>
+				<p>.button-nav</p>
+
+				<h3>Sample code:</h3>
+				<code>&lt;a href=&quot;US.com&quot; class=&quot;button-nav&quot;&gt;US Website&lt;/a&gt;</code>
+
+				<h3>Rendered element:</h3>
+				<nav>
+					<a href="US.com" class="button-nav">US Website</a>
+				
+				</nav>
+
+			</section>
+
+			<section>
+
+				<h2>In-text link</h2> <!-- I learnt from W3C -->
+                
+                <h3>CSS selector:</h3>
+				<p>.in_text_link</p>
+
+				<h3>Sample code:</h3>
+				<code>&lt;a href="https://us.wconcept.com"&gt;WConcept&lt;/a&gt;</code>
+
+				<div class="in_text_link">
+					<h3>Rendered element:</h3>
+					<a href="https://us.wconcept.com">WConcept</a>
+				</div>
+
+			</section>
+
+			<section>
+				<h2>Submit/Reset Buttons</h2>
+                 
+                <h3>CSS selector:</h3>
+				<p>.button-nav</p>
+
+				<h3>Sample code:</h3>
+				<code>&lt;button type=&quot;button&quot; class=&quot;button-nav&quot;&gt;Submit&lt;/button&gt;</code>
+
+				<h3>Rendered element:</h3>
+				<button type="button" class="button-nav">Submit</button>
+
+			</section>
+
+			<section>
+				<h2>Text Input Field</h2> <!-- I learnt from W3C -->
+
+                <h3>CSS selector:</h3>
+				<p>.input-text</p>
+
+				<h3>Sample code:</h3>
+				<code>&lt;input type=&quot;text&quot; value=&quot;&quot; class=&quot;input-text&quot; /&gt;</code>
+				<code>&lt;input type=&quot;text&quot; value=&quot;&quot; class=&quot;input-text&quot; /&gt;</code>
+
+				<h3>Rendered element:</h3>
+				<label> Name:</label>
+				<input type="text" value="" class="input-text" />
+				<label> Address:</label>
+				<input type="text" value="" class="input-text" />
+
+			</section>
+
+			<section>
+				<h2>Radio Input Field</h2> <!-- I learnt from W3C -->
+
+				<h3>Sample code:</h3>
+				<code>&lt;label for="Endomorphs"&gt;Endomorphs&lt;/label&gt;&lt;input type="radio" id="Endomorphs" name="Body Type"
+					value="Endomorphs"/&gt;</code>
+
+				<h3>Rendered element:</h3>
+				<p>Please Select Your<strong> Body Type:</strong></p>
+				<input type="radio" id="Endomorphs" name="Body Type" value="Endomorphs">
+				<label for="Endomorphs">Endomorphs</label><br>
+				<input type="radio" id="Mesomorph" name="Body Type" value="Mesomorph">
+				<label for="Mesomorph">Mesomorph</label><br>
+				<input type="radio" id="Ectomorphs" name="Body Type" value="Ectomorphs">
+				<label for="Ectomorphs">Ectomorphs</label>
+
+			</section>
+
+			<section>
+				<h2>An image as a link</h2>
+
+				<h3>CSS selector:</h3>
+				<p>.image_as_link</p>
+
+				<h3>Sample code:</h3>
+				<code>&lt;a href="https://us.wconcept.com"&gt;&lt;img src="images/shoes.jpg" alt="shoes" width= "300"&gt;&lt;/a&gt;</code>
+
+				<h3>Rendered element:</h3>
+				<div style="width: 300px;">
+					<a href="https://us.wconcept.com">
+						<div class="image_as_link">
+							<img src="images/shoes.jpg" alt="shoes" style="width: 100%;">
+						</div>
+					</a>
+				</div>
+				
+
+			</section>
+
+		</section>
+		<!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+		<!-- TEXT ELEMENTS SECTION // -->
+		<section id="text_elements">
+
+			<section>
+				<h2>Headings</h2>
+
+				<h3>Sample code:</h3>
+				<code>&lt;h2&gt; heading two &lt;/h2&gt;</code>
+
+
+				<h3>Rendered element:</h3>
+
+				<h2> Heading two </h2>
+				<h3> Heading three </h3>
+				<h4> Heading four </h4>
+				<h5> Heading five </h5>
+
+			</section>
+
+			<section class="para">
+				<h2>Paragraphs</h2>
+
+                <h3>CSS selector:</h3>
+			    <p>.para</p>
+
+				<h3>Sample code:</h3>
+				<code>&lt;p&gt; Lorem Ipsum... &lt;/p&gt;</code>
+
+				<h3>Rendered element:</h3>
+				<p > Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+					standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+					type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+					remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+					Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+					of Lorem Ipsum.</p>
+			</section>
+
+			<section>
+				<h2>Bulleted Lists</h2>
+
+				<h3>Sample code:</h3>
+				<code>&lt;ul&gt;&lt;li&gt;a&lt;/li&gt;&lt;li&gt;b&lt;/li&gt;&lt;&lt;li&gt;c&lt;/li&gt;&lt;/ul&gt;</code>
+
+
+				<h3>Rendered element:</h3>
+				<ul>
+
+					<li>a</li>
+					<li>b</li>
+					<li>c</li>
+
+				</ul>
+			</section>
+
+			<section>
+				<h2>Numbered Lists</h2>
+
+				<h3>Sample code:</h3>
+				<code>&lt;ol&gt;&lt;li&gt;a&lt;/li&gt;&lt;li&gt;b&lt;/li&gt;&lt;li&gt;c&lt;/li&gt;&lt;/ol&gt;</code>
+
+				<h3>Rendered element:</h3>
+				<ol>
+					<li>a</li>
+					<li>b</li>
+					<li>c</li>
+
+				</ol>
+
+			</section>
+
+		</section>
+		<!-- // TEXT ELEMENTS SECTION -->
+
+
+
+		<!-- COMBINED ELEMENTS SECTION // -->
+		<section id="combined_elements">
+			<!-- I learnt from W3C -->
+
+			<section>
+				<h2>Main Navigation</h2>
+				<h3>Sample code:</h3>
+				<code>&lt;a href=&quot;&quot; class=&quot;brand-links&quot;&gt;Home&lt;/a&gt;</code>
+
+
+				<h3>Rendered element:</h3>
+				<nav>
+					<a href="" class="brand-links">Home</a>
+					<a href="" class="brand-links">Product</a>
+					<a href="" class="brand-links">Contact</a>
+				</nav>
+
+			</section>
+
+			<section>
+			<div class="product-list">
+					<h2>Product Listing</h2>
+				<h3>Sample code:</h3>
+				<code>&lt;div class=&quot;products-item&quot;&gt;
+					&lt;div class=&quot;products-container&quot;&gt;
+					&lt;img src=&quot;images/ENDOT_Wool_Coat.jpg&quot; alt=&quot;wool_coat&quot; class=&quot;products-image&quot;
+					style=&quot;width:100%&quot;&gt;
+					&lt;div class=&quot;products-middle&quot;&gt;
+					&lt;a href=&quot;#&quot; class=&quot;brand-links&quot;&gt;ENDOT Wool coat&lt;/a&gt;
+					&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;span class=&quot;products-link&quot;&gt;ENDOT Wool coat&lt;/span&gt;
+					&lt;span class=&quot;products-price&quot;&gt;$20&lt;/span&gt;
+					&lt;/div&gt;</code>
+
+                <h3>CSS selector:</h3>
+			    <p>.products-box</p>
+
+				<h3>Rendered element:</h3>
+
+				<div class="products-box">
+					<div class="products-item">
+						<div class="products-container">
+							<img src="images/ENDOT_Wool_Coat.jpg" alt="wool_coat" class="products-image" style="width:100%">
+							<div class="button"><a href="#">Quick Shop</a></div>
+							<div class="products-middle">
+								<a href="#" class="brand-links">ENDOT Wool coat</a>
+							</div>
+						</div>
+						<span class="products-link">ENDOT Wool coat</span>
+						<span class="products-price">$20</span>
+					</div>
+					<div class="products-item">
+						<div class="products-container">
+							<img src="images/ENDOT_Wool_Coat.jpg" alt="wool_coat" class="products-image" style="width:100%">
+							<div class="button"><a href="#">Quick Shop</a></div>
+							<div class="products-middle">
+								<a href="#" class="brand-links">ENDOT Wool coat</a>
+							</div>
+						</div>
+						<span class="products-link">ENDOT Wool coat</span>
+						<span class="products-price">$20</span>
+					</div>
+					<!-- <div class="products-item">
+						<div class="products-container">
+							<img src="images/ENDOT_Wool_Coat.jpg" alt="wool_coat" class="products-image" style="width:100%">
+							<div class="button"><a href="#">Quick Shop</a></div>
+							<div class="products-middle">
+								<a href="#" class="brand-links">ENDOT Wool coat</a>
+							</div>
+						</div>
+						<span class="products-link">ENDOT Wool coat</span>
+						<span class="products-price">$20</span>
+					</div>
+					<div class="products-item">
+						<div class="products-container">
+							<img src="images/ENDOT_Wool_Coat.jpg" alt="wool_coat" class="products-image" style="width:100%">
+							<div class="button"><a href="#">Quick Shop</a></div>
+							<div class="products-middle">
+								<a href="#" class="brand-links">ENDOT Wool Coat</a>
+							</div>
+						</div>
+						<span class="products-link">ENDOT Wool coat</span>
+						<span class="products-price">$20</span>
+					</div>
+					<div class="products-item">
+						<div class="products-container">
+							<img src="images/ENDOT_Wool_Coat.jpg" alt="wool_coat" class="products-image" style="width:100%">
+							<div class="button"><a href="#">Quick Shop</a></div>
+							<div class="products-middle">
+								<a href="#" class="brand-links">ENDOT Wool Coat</a>
+							</div>
+						</div>
+						<span class="products-link">ENDOT Wool coat</span>
+						<span class="products-price">$20</span>
+					</div>
+				</div> -->
+			
+			</div>
+		</div>
+				
+		</section>	
+
+			<section>
+				<h2>Payment Form</h2> <!-- I learnt from W3C -->
+                
+                <h3>CSS selector:</h3>
+			    <p>.row</p>
+				<h3>Sample code:</h3>
+				<code>&lt;label&gt;Name on Card&lt;/label&gt;</code>
+				<code>&lt;input type="text" value =""/&gt;</code>
+
+				<h3>Rendered element:</h3>
+
+				<h3>Payment</h3>
+				<h4> Accepted Cards</h4> <!-- I learnt from W3C -->
+
+				<div class="row">
+					<div class="payment">
+						<img src="images/Accepted_Cards.jpg" alt="cards" width="100">
+						<label for="cname"> Name on Card</label>
+						<input type="text" id="cname" name="cardname" placeholder="Xinyu Zhang">
+						<label for="ccnum"> Credit Card Number</label>
+						<input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+						<label for="expdate"> Exp Date</label>
+						<input type="text" id="expdate" name="expdate" placeholder="DD/MM/YY">
+						<label for="cvv">CVV</label>
+						<input type="text" id="cvv" name="cvv" placeholder="352">
+						<input type="submit" value="Continue to checkout" class="btn">
+
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<h2>Checkout Cart</h2> <!-- I learnt from W3C -->
+				<h3>Sample code:</h3>
+				<code>&lt;p&gt;&lt;a href="#"&gt;Product 1&lt;/a&gt;&lt;span class="price"&gt;$20&lt;/span>/p&gt;</code>
+                
+                <h3>CSS selector:</h3>
+			    <p>.checkout-box</p>
+				<h3>Rendered element:</h3>
+				<div class="checkout-box">
+					<p style="font-size: 28px;font-weight: bold;">Checkout Cart</p>
+					<div class="checkout-item">
+						<img style="width:100px;height:100px;" class="checkimg" src="images/ENDOT_Wool_Coat.jpg" alt="" />
+						<a href="#" class="brand-links checkout-product">Product 1</a>
+						<span class="size">size: L</span>
+						<span>$20</span>
+					</div>
+					<div class="checkout-item">
+						<img style="width:100px;height:100px;" class="checkimg" src="images/potential_image_3.jpg" alt="" />
+						<a href="#" class="brand-links checkout-product">Product 2</a>
+						<span class="size">size: L</span>
+						<span>$20</span>
+					</div>
+					<div class="checkout-item">
+						<img style="width:100px;height:100px;" class="checkimg" src="images/potential_image_1.jpg" alt="" />
+						<a href="#" class="brand-links checkout-product">Product 3</a>
+						<span class="size">size: L</span>
+						<span>$20</span>
+					</div>
+					<div class="checkout-item">
+						<img style="width:100px;height:100px;" class="checkimg" src="images/potential_image_2.jpg" alt="" />
+						<a href="#" class="brand-links checkout-product">Product 4</a>
+						<span class="size">size: L</span>
+						<span>$20</span>
+					</div>
+					<div class="checkout-item checkout-total">
+						<span>Order Total</span>
+						<span>$80</span>
+					</div>
+					<a class="button-nav" href="#" style="width: 100%;padding: 1em 0em;margin-top: 20px;">Checkout</a>
+				</div>
+			</section>
+
+			<section>
+				<h2>Search Box</h2> <!-- I learnt from W3C -->
+				<h3>Sample code:</h3>
+				<code>&lt;input type=&quot;text&quot; value=&quot;&quot; class=&quot;input-text&quot;
+					placeholder=&quot;Search&quot; style=&quot;padding: 0.5em 0em;&quot;/&gt;</code>
+                
+                <h3>CSS selector:</h3>
+			    <p>.input-text</p>
+				<h3>Rendered element:</h3>
+				<div>
+					<input type="text" value="" class="input-text" placeholder="Search" style="padding: 0.5em 0em;" />
+					<a class="button-nav" href="#">Search</a>
+				</div>
+			</section>
+		</section>
+		<!-- // COMBINED ELEMENTS SECTION -->
+
+
+
+		<!-- //  COMPANY AND BRANDING -->
+		<section id="comany_and_branding">
+
+			<section>
+				<h3> Branding Ideas</h3>
+				<p> Wconcept is a fashion compay that offers clothes and fashion goods from independent designers, targeting
+					customers from middle to upper class who pursuit updated fashion and trends.</p>
+				<p> The company's sophisticated and minimalist web design and product images highlight the minimalist premium feel
+					of the brands it sells to attract young customers and working professionals.</p>
+			</section>
+
+			<section>
+				<h3> Branding Components</h3>
+				<h4>Fonts</h4>
+				<p> We use sans-serif to increase readability.</p>
+				<p style="font-size: 28px;font-weight: bold;">This size is used for the title.</p>
+				<p>This size is used for the content.</p>
+				<p style="font-style: italic;">This size is used for the introduction.</p>
+
+				<h4>Color Palette</h4>
+				<div class="color-box">
+					<div style="background-color: #827163;" class="color-box-in">#827163</div>
+					<div style="background-color: #CAA479;" class="color-box-in">#CAA479</div>
+					<div style="background-color: #B2A99A;" class="color-box-in">#B2A99A</div>
+					<div style="background-color: #A2A08A;" class="color-box-in">#A2A08A</div>
+					<div style="background-color: #9D7F5E;" class="color-box-in">#9D7F5E</div>
+				</div>
+				<p> We use low saturation combined with warm and cold tone colors.</p>
+				<h4>Potential Imagery</h4>
+				<img src="images/potential_image_1.jpg" alt="potential_image_1" width="300">
+				<img src="images/potential_image_2.jpg" alt="potential_image_2" width="300">
+				<img src="images/potential_image_3.jpg" alt="potential_image_2" width="300">
+				<img src="images/potential_image_4.jpg" alt="potential_image_2" width="300">
+				<img src="images/potential_image_5.jpg" alt="potential_image_2" width="300">
+
+
+
+			</section>
+
+
+
+
+		</section>
+		<!-- //  Citations-->
+        <section id="citations">
+
+			<!-- Default Button styling section -->
+			<section>
+				<h2>Citations</h2>
+
+					<div class=".in_text_link">
+					<h4>Tutorials</h4>
+					<ul>
+					<li><a href="https://www.w3schools.com/w3css/w3css_responsive.asp">w3schools_responsive</a></li>
+				
+					<li><a href="https://www.w3schools.com/howto/howto_css_searchbar.asp">w3schools_search bar</a></li>
+			
+					<li><a href="https://www.w3schools.com/icons/fontawesome5_icons_payment_shopping.asp">w3schools_shopping cart</a></li>
+
+					</ul>
+
+					<h4>Images</h4>
+					<ul>
+					<li><a href="https://us.wconcept.com">wconcept website</a></li>
+				
+					<li><a href="https://images.app.goo.gl/JaUM3BS7faqrxEn47">payment method logos</a></li>
+
+					</ul>
+
+					<h4>Fonts</h4>
+					<ul>
+					<li><a href="https://fonts.google.com/?query=trirong">Trirong</a></li>
+				
+					<li><a href="https://fonts.google.com/?category=Monospace">Monospace font</a></li>
+
+
+
+                  </ul>
+
+				</div>
+
+			</section>
+		</section>
+
+
+	</body>
+</html>
