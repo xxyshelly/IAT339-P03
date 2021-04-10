@@ -1,33 +1,26 @@
 <!DOCTYPE html>
 <html>
-
-	<head>
-
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Style Guide Template</title>
-		<link href="css/style.css" rel="stylesheet">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
-		<!--responsive css-->
-		
-		<link rel="stylesheet" href="css/responsive.css" />
-
-		    <style>
-		        body { 
-    padding: 2rem;
-}
-   </style> 
-
-	</head>
-
-	<body>
-
-		<h1>Style Guide Template</h1>
-
-		<p>A template you can use to start building out your own style guides with.</p>
-
-
-		<nav>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Style Guide Template</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <!--responsive css-->
+    <link rel="stylesheet" href="css/responsive.css" />
+    <style>
+        body
+        {
+            padding: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Style Guide Template</h1>
+    <p>
+        A template you can use to start building out your own style guides with.</p>
+    <nav>
 
 			<p>
 				Go to:
@@ -41,11 +34,8 @@
 			</p>
 
 		</nav>
-
-
-
-		<!-- INTERACTIVE ELEMENTS SECTION // -->
-		<section id="interactive_elements">
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
 
 			<!-- Default Button styling section -->
 			<section>
@@ -78,75 +68,8 @@
 				
 				</nav>
 
-			</section>
-
-			<section>
-
-				<h2>In-text link</h2> <!-- I learnt from W3C -->
-                
-                <h3>CSS selector:</h3>
-				<p>.in_text_link</p>
-
-				<h3>Sample code:</h3>
-				<code>&lt;a href="https://us.wconcept.com"&gt;WConcept&lt;/a&gt;</code>
-
-				<div class="in_text_link">
-					<h3>Rendered element:</h3>
-					<a href="https://us.wconcept.com">WConcept</a>
-				</div>
-
-			</section>
-
-			<section>
-				<h2>Submit/Reset Buttons</h2>
-                 
-                <h3>CSS selector:</h3>
-				<p>.button-nav</p>
-
-				<h3>Sample code:</h3>
-				<code>&lt;button type=&quot;button&quot; class=&quot;button-nav&quot;&gt;Submit&lt;/button&gt;</code>
-
-				<h3>Rendered element:</h3>
-				<button type="button" class="button-nav">Submit</button>
-
-			</section>
-
-			<section>
-				<h2>Text Input Field</h2> <!-- I learnt from W3C -->
-
-                <h3>CSS selector:</h3>
-				<p>.input-text</p>
-
-				<h3>Sample code:</h3>
-				<code>&lt;input type=&quot;text&quot; value=&quot;&quot; class=&quot;input-text&quot; /&gt;</code>
-				<code>&lt;input type=&quot;text&quot; value=&quot;&quot; class=&quot;input-text&quot; /&gt;</code>
-
-				<h3>Rendered element:</h3>
-				<label> Name:</label>
-				<input type="text" value="" class="input-text" />
-				<label> Address:</label>
-				<input type="text" value="" class="input-text" />
-
-			</section>
-
-			<section>
-				<h2>Radio Input Field</h2> <!-- I learnt from W3C -->
-
-				<h3>Sample code:</h3>
-				<code>&lt;label for="Endomorphs"&gt;Endomorphs&lt;/label&gt;&lt;input type="radio" id="Endomorphs" name="Body Type"
-					value="Endomorphs"/&gt;</code>
-
-				<h3>Rendered element:</h3>
-				<p>Please Select Your<strong> Body Type:</strong></p>
-				<input type="radio" id="Endomorphs" name="Body Type" value="Endomorphs">
-				<label for="Endomorphs">Endomorphs</label><br>
-				<input type="radio" id="Mesomorph" name="Body Type" value="Mesomorph">
-				<label for="Mesomorph">Mesomorph</label><br>
-				<input type="radio" id="Ectomorphs" name="Body Type" value="Ectomorphs">
-				<label for="Ectomorphs">Ectomorphs</label>
-
-			</section>
-
+			</section>   
+             
 			<section>
 				<h2>An image as a link</h2>
 
@@ -157,10 +80,14 @@
 				<code>&lt;a href="https://us.wconcept.com"&gt;&lt;img src="images/shoes.jpg" alt="shoes" width= "300"&gt;&lt;/a&gt;</code>
 
 				<h3>Rendered element:</h3>
-				<div style="width: 300px;">
+				<div style="width: 300px;" id="container">
+                <ul>
+                <li></li>
+                
+                </ul>
 					<a href="https://us.wconcept.com">
 						<div class="image_as_link">
-							<img src="images/shoes.jpg" alt="shoes" style="width: 100%;">
+							<img src="images/343img_1.png" alt="shoes" style="width: 100%;">
 						</div>
 					</a>
 				</div>
@@ -169,12 +96,9 @@
 			</section>
 
 		</section>
-		<!-- // INTERACTIVE ELEMENTS SECTION -->
-
-
-
-		<!-- TEXT ELEMENTS SECTION // -->
-		<section id="text_elements">
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
 
 			<section>
 				<h2>Headings</h2>
@@ -244,12 +168,9 @@
 			</section>
 
 		</section>
-		<!-- // TEXT ELEMENTS SECTION -->
-
-
-
-		<!-- COMBINED ELEMENTS SECTION // -->
-		<section id="combined_elements">
+    <!-- // TEXT ELEMENTS SECTION -->
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
 			<!-- I learnt from W3C -->
 
 			<section>
@@ -351,8 +272,8 @@
 				
 		</section>	
 
-			<section>
-				<h2>Payment Form</h2> <!-- I learnt from W3C -->
+			<!-- <section>
+				<h2>Payment Form</h2> 
                 
                 <h3>CSS selector:</h3>
 			    <p>.row</p>
@@ -363,7 +284,7 @@
 				<h3>Rendered element:</h3>
 
 				<h3>Payment</h3>
-				<h4> Accepted Cards</h4> <!-- I learnt from W3C -->
+				<h4> Accepted Cards</h4> 
 
 				<div class="row">
 					<div class="payment">
@@ -380,10 +301,10 @@
 
 					</div>
 				</div>
-			</section>
+			</section> -->
 
-			<section>
-				<h2>Checkout Cart</h2> <!-- I learnt from W3C -->
+			<!-- <section>
+				<h2>Checkout Cart</h2> 
 				<h3>Sample code:</h3>
 				<code>&lt;p&gt;&lt;a href="#"&gt;Product 1&lt;/a&gt;&lt;span class="price"&gt;$20&lt;/span>/p&gt;</code>
                 
@@ -422,7 +343,7 @@
 					</div>
 					<a class="button-nav" href="#" style="width: 100%;padding: 1em 0em;margin-top: 20px;">Checkout</a>
 				</div>
-			</section>
+			</section> -->
 
 			<section>
 				<h2>Search Box</h2> <!-- I learnt from W3C -->
@@ -439,12 +360,9 @@
 				</div>
 			</section>
 		</section>
-		<!-- // COMBINED ELEMENTS SECTION -->
-
-
-
-		<!-- //  COMPANY AND BRANDING -->
-		<section id="comany_and_branding">
+    <!-- // COMBINED ELEMENTS SECTION -->
+    <!-- //  COMPANY AND BRANDING -->
+    <section id="comany_and_branding">
 
 			<section>
 				<h3> Branding Ideas</h3>
@@ -464,19 +382,19 @@
 
 				<h4>Color Palette</h4>
 				<div class="color-box">
-					<div style="background-color: #827163;" class="color-box-in">#827163</div>
-					<div style="background-color: #CAA479;" class="color-box-in">#CAA479</div>
-					<div style="background-color: #B2A99A;" class="color-box-in">#B2A99A</div>
+					<div style="background-color: #a285a1;" class="color-box-in">#a285a1</div>
+					<div style="background-color: #e6dace;" class="color-box-in">#e6dace</div>
+					<div style="background-color: #d89d9f;" class="color-box-in">#d89d9f</div>
 					<div style="background-color: #A2A08A;" class="color-box-in">#A2A08A</div>
 					<div style="background-color: #9D7F5E;" class="color-box-in">#9D7F5E</div>
 				</div>
 				<p> We use low saturation combined with warm and cold tone colors.</p>
 				<h4>Potential Imagery</h4>
-				<img src="images/potential_image_1.jpg" alt="potential_image_1" width="300">
-				<img src="images/potential_image_2.jpg" alt="potential_image_2" width="300">
-				<img src="images/potential_image_3.jpg" alt="potential_image_2" width="300">
-				<img src="images/potential_image_4.jpg" alt="potential_image_2" width="300">
-				<img src="images/potential_image_5.jpg" alt="potential_image_2" width="300">
+				<img src="images/blackpearl.png" alt="potential_image_1" width="300">
+				<img src="images/3Dmodelling.png" alt="potential_image_2" width="300">
+				<img src="images/2DAnimation.png" alt="potential_image_2" width="300">
+				<img src="images/344img_1.png" alt="potential_image_2" width="300">
+				<img src="images/horror_face.jpg" alt="potential_image_2" width="300">
 
 
 
@@ -486,8 +404,8 @@
 
 
 		</section>
-		<!-- //  Citations-->
-        <section id="citations">
+    <!-- //  Citations-->
+    <section id="citations">
 
 			<!-- Default Button styling section -->
 			<section>
@@ -526,7 +444,5 @@
 
 			</section>
 		</section>
-
-
-	</body>
+</body>
 </html>
