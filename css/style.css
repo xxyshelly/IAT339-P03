@@ -119,6 +119,10 @@ p.title span{  font-size: 29px; line-height: 0.95em; font-weight:bolder; border-
 .innerbox p{ color:#000; font-size:15px; margin-bottom:5px; line-height:1.5; font-family: weiruanyehei;}
 .innerbox a: hover img{
     opacity: .8 ; }
+.innerbox li {
+    padding-bottom: 1rem;}
+.innerbox li a{ 
+    word-break:break-all; }
 .linebox { width:360px; margin:0 auto; overflow:hidden;}
 .vertiLine { margin:50px 0px;}
 .vertiLine .lineboxleft1 { float:left; width:48%;  }
