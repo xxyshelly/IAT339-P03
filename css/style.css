@@ -10,19 +10,19 @@ a {
 }
 ul,li{ list-style:none;}
 header{ padding:51px 49px 26px; overflow:hidden;}
-.logo .fk{ width:16px; height:16px; float:left; background:#a285a1; margin-right:10px; margin-top:6px;} 
+.logo .Namelogo{ width:16px; height:16px; float:left; background:#a285a1; margin-right:10px; margin-top:6px;} 
 .logo p{ font-size: 25px; float:left; color:#000; font-weight:bold;}
 header nav{ float:right;}
 a.button-nav{ line-height:29px; margin:0px 15px; color:#000; font-size: 14px; }
 a.button-nav:hover{ opacity:.5;}
-mian{ overflow:hidden;} 
-mian .left{ width:40%; height:780px; background: #e6dace; float:left;position:relative; z-index:1; }
-mian .right{ width:60%; float:left; margin-top:140px; position:relative; z-index:999; }
+.mian{ overflow:hidden;} 
+.mian .left{ width:40%; height:780px; background: #e6dace; float:left;position:relative; z-index:1; }
+.mian .right{ width:60%; float:left; margin-top:140px; position:relative; z-index:999; }
 .boxleft{ width:375px; background: #d89d9f; text-align:center; padding:40px 0px; margin-right:20px; float:left; position:relative; margin-left:-250px;  }
 .boxleft img{ max-width:100%; border-radius:50%;}
 .boxleft p{ margin:20px 0px;}
 .boxleft h1{ font-size: 27px;}
-.boxleft p.heng 
+.boxleft p.horiLine
 {
     width: 50px;
     height: 2px;
@@ -46,9 +46,9 @@ mian .right{ width:60%; float:left; margin-top:140px; position:relative; z-index
 .clr{ clear:both;}
 .w1300{ width:1300px; margin:0 auto;}
 .title{ margin-top:30px; overflow:hidden;}
-.title .tl{ float:left;}
-.title .tr{ float:right;}
-.title .tr li{ float:left; list-style:none;}
+.title .titleleft{ float:left;}
+.title .titleright{ float:right;}
+.title .titleright li{ float:left; list-style:none;}
 .title h2 {
     font-size: 40px;
     font-weight: 500;
@@ -57,7 +57,7 @@ mian .right{ width:60%; float:left; margin-top:140px; position:relative; z-index
     margin-top: 24px;
     margin-bottom: 26px;
 }
-.title .tr li  {
+.title .titleright li  {
     display: block; 
     padding-bottom: 8px;
     border-bottom: 4px solid transparent;
@@ -68,7 +68,7 @@ mian .right{ width:60%; float:left; margin-top:140px; position:relative; z-index
     padding-top:15px;
     opacity: .5 ;
 }
-.title .tr li.act, .title .tr li:hover {
+.title .titleright li.act, .title .titleright li:hover {
     opacity: 1 !important;
     border-bottom: 4px solid black;
 }
@@ -91,47 +91,46 @@ mian .right{ width:60%; float:left; margin-top:140px; position:relative; z-index
 .news .content h3{ line-height:2; margin-bottom:10px; }
 .news .content p{ line-height:2; margin-bottom:10px; }
 
-
-
-/*styling for footer*/
-/*footer{
-    background-color: #caa479;
-    margin-top: 10rem;
-    padding-bottom: 5rem;
+footer.foot{
+    background-color: #e6dace; 
+    padding:20px;
 }
+footer .finner{ width:1000px; margin:0 auto;}
+footer.foot h2{ font-size: 48px; color: #D89D9F; float:left; margin-right:40px;}
+footer.foot p.font_2{ font-size: 13px; color: #D89D9F; float:left; line-height:67px;}
+footer.foot a{ font-size:15px; color:#D89D9F; line-height:40px; margin-right:100px;}
 
-div.footerContent{
-    width: 80%;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    flex-wrap: wrap;
+.research {
+    width: 100%;
+    height: 780px;
+    background: #e6dace; 
 }
-
-footer h3{
-    padding-top: 0;
-    margin-bottom: 0.5rem;
-    margin-top: 0;
-    font-family: 'Hind', sans-serif;
+p.title {
+    margin-top: 60px;
+    overflow: hidden;
+    text-align:center;
 }
+p.title span{  font-size: 29px; line-height: 0.95em; font-weight:bolder; border-bottom:10px solid #a285a1; display:inline-block; padding:0px 10px; padding-bottom:10px;}
 
-footer a{
-    display: block;
-    color: black;
-    font-family: 'Hind', sans-serif;
-    text-decoration: none;
-}
+.outerbox{ width:455px; margin:20px auto; background:#fff; padding:20px; }
+.innerbox{ background:#f4ece6; padding:50px 30px; }
+.innerbox h3{ color:#D89D9F; font-size:20px; margin-bottom:10px; font-family: weiruanyehei;}
+.innerbox h4{ color:#000; font-size:15px; margin-bottom:5px; font-family: weiruanyehei;}
+.innerbox p{ color:#000; font-size:15px; margin-bottom:5px; line-height:1.5; font-family: weiruanyehei;}
+.innerbox a: hover img{
+    opacity: .8 ; }
+.linebox { width:360px; margin:0 auto; overflow:hidden;}
+.vertiLine { margin:50px 0px;}
+.vertiLine .lineboxleft1 { float:left; width:48%;  }
+.vertiLine .lineboxright1{  float:right; width:48%; padding-left:4%;  box-sizing:border-box; border-left:3px solid #d89d9f; }
+.vertiLine dt{ font-size:18px; color: rgb(216, 157, 159); padding:20px 0px; }
+.vertiLine .lineboxleft1  dt{ margin-top:0px; background:url(../images/2.png) no-repeat right center;} 
+.vertiLine .lineboxright1 dt{ margin-top:100px; background:url(../images/3.png) no-repeat left center; padding-left:80px;}
+.vertiLine .lineboxright1 dd{ padding-left:80px;}
+.vertiLine dd{font-size:15px; line-height:2em;}
+.content_img { text-align:center;}
+.content_img img{ max-width:1240px; margin:40px auto 60px;}
+.content{ max-width:1000px; margin:0 auto;}s
 
-div.process, div.contributor, div.joinUs{
-    width: 30%;
-    margin-top: 2rem;
-}
-
-div.icons{
-    display: flex;
-    justify-content: space-between;
-    width: 60%;
-    padding: 0;
-    margin-bottom: 0;
-}*/
+/*.downloadbtn{ background: #D89D9F; padding:5px 10px; color:#fff; line-height:40px; display:inline-block;}
+.downloadbtn span { padding:230px 100px;font-size:20px; font-weight:bolder;color:#D89D9F;}*/

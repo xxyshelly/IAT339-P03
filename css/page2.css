@@ -1,0 +1,13 @@
+﻿.page2 .news h2{ font-size: 29px; color:#D89D9F; font-weight:bolder; position:relative;}
+.page2 .news h3{ font-size: 18px; color:#D89D9F; font-weight:bolder;}
+.page2 .news p{ font-size: 18px; color:black;}
+.page2 .news .content{ overflow:hidden;}
+.page2 .news .content .columnleft{ float:left; width:46%; margin-right:8%;}
+.page2 .news .content .columnright{ float:right;width:46%;}
+.center{ text-align:center;}
+video{ margin:30px auto;}
+.center span{ color:#000; font-size:15px; font-family: weiruanyehei;}
+.center span a{ color:#000; font-size:15px; font-family: weiruanyehei;}
+.page2 .news h2:after{ content:''; height:4px; width:70%; position:absolute; top:30px; left:30%; background:#D89D9F;}
+.down{ background: #D89D9F; padding:5px 10px; color:#fff; line-height:40px; display:inline-block;}
+.down span{ color:#fff;}

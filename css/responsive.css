@@ -13,11 +13,11 @@
  
 @media only screen and (max-width: 1200px) 
 {
-     mian .left 
+     .mian .left 
      {
          display:none;
 }
-	mian .right {
+	.mian .right {
     width: 90%;
     float: none;
     position: relative;
@@ -35,10 +35,12 @@
     position: relative;
     margin-left: auto;
 }
+
+.content_img img{ width:100%;}
 }
  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 1000px) {
-	mian .right{ text-align:center;}
+	.mian .right{ text-align:center;}
 	.boxleft { 
     margin-left: auto;
     margin-right: auto;
@@ -52,6 +54,13 @@
     margin-right: auto;
     max-width:100%;
 }
+
+footer .finner{ width:100%; margin:0 auto;}
+
+.page2 .news .content .columnright{ float: none;
+    width: 92%; margin:0 auto;}
+.page2 .news .content .columnleft{ float: none;
+    width: 92%; margin:0 auto;}
 }
 
  /* Extra small devices (phones, 600px and down) */
@@ -63,25 +72,45 @@ header nav
 {
     margin-top:10px;
 }
-mian .right { 
+.mian .right { 
     margin-top: 20px;
 }
 #container li {
-    width: 49.6%;
+    width: 99.6%;
     float: left;
     padding: 0.2%;
     margin-bottom: 48px;
-}
+} 
+.page2 .news h2:after{ content:''; height:4px; width:20%; position:absolute; top:30px; left:80%; background:#D89D9F;}
 }
 
 
 @media only screen and (max-width: 480px) 
 { 
-    .title .tr li { 
+    .title .titleright li { 
     margin: 0 10px; 
 }
 .title { 
     margin-bottom: 20px;
+}
+
+.foot a{  margin-right:30px;}
+
+
+.outerbox{ width:90%; margin:20px auto; background:#fff; padding:20px; }
+
+
+.page2 .news .content .columnright{ float: none;
+    width: 98%; margin:0 auto;}
+.page2 .news .content .columnleft{ float: none;
+    width: 98%; margin:0 auto;}
+    
+    .news .content {
+    padding: 30px 20px;
+}
+video 
+{
+    width:98% !important;
 }
 }
 
